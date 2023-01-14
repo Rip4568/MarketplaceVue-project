@@ -9,7 +9,7 @@ export default {
 <template>
   <div class="container about">
     <h1>Olá a todos!</h1>
-    <h2>Meu nome é <span class="name">Jonathas David</span> e este é um projeto apenas para agregar no meu portfolio, espero que goste</h2>
+    <h2>Me chamo <span class="name">Jonathas David</span> e este é um projeto de mercadinho contendo as principais funcionalidades, espero que goste :] </h2>
   </div>
 </template>
 

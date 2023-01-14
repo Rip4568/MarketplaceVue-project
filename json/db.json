@@ -17,6 +17,12 @@
       "picture":"https://www.imigrantesbebidas.com.br/bebida/images/products/full/1885-refrigerante-guarana-antarctica-2l.jpg",
       "price":12.99,
       "id":3
+    },
+    {
+      "name":"Dolly Guarana",
+      "picture":"https://supershoppdacerveja.loja2.com.br/img/e2283e605f77b0d94a47b88c68d81e3e.jpg",
+      "price":8,
+      "id":4
     }
   ]
     

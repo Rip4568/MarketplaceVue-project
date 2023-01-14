@@ -3,8 +3,8 @@
 <style>
 .card {
   overflow: hidden;
-  background-color: rgba(240, 255, 255, 0.226);
   display: block;
+  border: 2px solid green;
 }
 
 .card-img-top {
@@ -15,11 +15,11 @@
 }
 
 .card-body {
-  background-color: aliceblue;
+  background-color: rgb(198, 240, 217);
 }
 
 .btn-add-cart {
-  background-color: rgb(0, 255, 13);
+  background-color: rgb(15, 207, 24);
   margin-left: 5px;
   margin-top: 5px;
 }
@@ -30,7 +30,7 @@
     <img class="card-img-top" :src="item.picture" alt="">
     <div class="card-body">
       <h4 class="card-title">{{item.name}}</h4>
-      <h4 class="card-text">{{item.price}}</h4>
+      <h4 class="card-text">R${{(item.price).toFixed(2).replace('.',',')}}</h4>
       <div class="controllers">
         <button class="btn btn-success" v-on:click="incrementQuantity()">+</button>
         <input type="number" style="width: 50px" v-model="quantity">

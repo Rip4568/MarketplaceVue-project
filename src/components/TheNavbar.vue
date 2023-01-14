@@ -2,14 +2,14 @@
 <style scoped>
 .navbar {
   min-height: 70px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(2, 29, 10, 0.4);
   width: 100%;
 }
 
 .link-logo {
   padding-left: 1rem;
   font-size: 30px;
-  background: linear-gradient(to right, #34c5f1, #7055e9);
+  background: linear-gradient(to right, #12bcf0, #55e993);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -85,6 +85,20 @@
   background-color: #93acff;
 } */
 
+.modal-content {
+  background-color: rgb(20, 20, 20);
+}
+
+/* .modal-header {
+  background-color: black;
+}
+.modal-body {
+  background-color: black;
+}
+
+.modal-footer {
+  background-color: black;
+} */
 .btn-close {
   background-color: tomato;
   color: aliceblue;
@@ -121,10 +135,10 @@ i {
         /></a>
       </div>
       <div class="links">
-        <a href="#Github" class="github-link"
+        <a target="_blank" href="https://github.com/Rip4568/MarketplaceVue-project/tree/master" class="github-link"
           ><i class="fa fa-github" aria-hidden="true"></i
         ></a>
-        <a href="#Linkedin"
+        <a target="_blank" href="https://www.linkedin.com/in/jonathas-david-59334721b/"
           ><i class="fa fa-linkedin" aria-hidden="true"></i
         ></a>
       </div>
