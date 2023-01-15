@@ -207,14 +207,14 @@ i {
 
 <script>
 import { useCartStore } from "../stores/useCartStore";
-import { useProcuctsStore } from "../stores/useProductsStore";
+import { useProductsStore } from "../stores/useProductsStore";
 import { RouterLink } from "vue-router";
 export default {
   components: {
     RouterLink,
   },
   setup() {
-    const products = useProcuctsStore()
+    const products = useProductsStore()
     const cart = useCartStore();
     return {
       cart,

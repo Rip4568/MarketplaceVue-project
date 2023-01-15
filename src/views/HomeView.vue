@@ -4,13 +4,13 @@ import TheWelcome from "../components/TheWelcome.vue";
 import { useCounterStore } from "/src/stores/counter.js";
 import ProductCard from "../components/utils/ProductCard.vue";
 import { useCartStore } from "../stores/useCartStore";
-import { useProcuctsStore } from "../stores/useProductsStore";
+import { useProductsStore } from "../stores/useProductsStore";
 
 export default {
   setup() {
     const counter = useCounterStore();
     const cart = useCartStore();
-    const products = useProcuctsStore();
+    const products = useProductsStore();
     const productsTemp = products;
     return {
       counter,
